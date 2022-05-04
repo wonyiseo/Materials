@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thermal Image Detector</title>
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<h2 style="text-align:center">QMUL Final Year Project</h2>
+<form enctype="multipart/form-data" method="post" style="text-align:center; font-size:150%">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Upload</button>
+</form>
+
+{% if img_obj %}
+<h3 style="text-align:center">File has been successfully uploaded : {{ img_obj.title }}</h3>
+<img alt="connect" src="{{ img_obj.image.url }}" style="max-height:300px; text-align:center; display: block; margin-left: auto; margin-right: auto">
+{% endif %}
+<br>
+<br>
+<h4 style="text-align:center">Code written by Wonyi SEO</h4>
+</body>
+</html>

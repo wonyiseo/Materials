@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="13.209.88.71" id="eb27c104-b038-4c66-8cc4-5a55eb304c96" keyPath="D:\github-repo\soomgo\서원이\imgAnalysis.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2f4c3ccc-603b-4d7d-8696-af6a72be55d2" name="aws-soomgo">
+        <fileTransfer accessType="SFTP" host="13.209.88.71" port="22" sshConfigId="eb27c104-b038-4c66-8cc4-5a55eb304c96" sshConfig="ec2-user@13.209.88.71:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
